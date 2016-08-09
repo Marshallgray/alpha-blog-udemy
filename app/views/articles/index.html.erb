@@ -10,9 +10,7 @@
         <div class="article-body">
           <%= truncate(article.description, length: 100) %>
           <div class="article-meta-details">
-
-
-            <small>Created :
+            <small>Created:
               <%= time_ago_in_words(article.created_at) %> ago,
               last updated: <%= time_ago_in_words(article.updated_at) %> ago</small>
           </div>
