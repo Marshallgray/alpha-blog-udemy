@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class CreatCategoriesTest < ActionDispatch::IntegrationTest
+class CreateCategoriesTest < ActionDispatch::IntegrationTest
 
   test "get new categoy form and create category" do
     get new_category_path
