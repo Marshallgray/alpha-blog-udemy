@@ -1,24 +1,10 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This Blog was built using rails 5.0.0rc1. For this build the tutorial I followed didn't use devise for authentication
+the author created his own User model and controller, which I found a valuable process as it gave me an appreciation for
+how easy devise does make it!
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+##Installation
+- git clone
+- bundle
+- rails db:migrate
